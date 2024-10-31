@@ -1,0 +1,26 @@
+﻿<Window x:Name="_123" x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="_123_Loaded">
+    <Grid>
+        <Button x:Name="_33" Content="Очистить" HorizontalAlignment="Left" Margin="78,192,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click" Height="40" Loaded="Button_Loaded"/>
+        <Button Content="Close" HorizontalAlignment="Left" Margin="717,-1,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-2.735,3.869" Click="Button_Click_2">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-2.334"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-2.573"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Заполнить" HorizontalAlignment="Left" Margin="201,193,0,0" VerticalAlignment="Top" Width="82" Height="39" Click="Button_Click_3"/>
+        <TextBox x:Name="_45" HorizontalAlignment="Left" Height="109" Margin="380,123,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="193"/>
+
+
+    </Grid>
+</Window>
